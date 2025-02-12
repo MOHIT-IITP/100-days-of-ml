@@ -1,0 +1,49 @@
+Application of Machine Learning;
+
+1: Retail - Amazon/ big bazar
+2: Bank ( they give loan acc to your profile) 
+3: transport (ola)
+4: manufacturing (tesla)
+5: consumer internet - twitter
+hello 
+
+
+
+Another day
+-----------
+
+MLDLC-> machine learning development life cycle 
+
+1: frame the problem (see what you want to solve) 
+2: Gathering Data  (csv, api , web scraping)
+3: Data Preprocessing
+----------> remove duplicate
+----------> remove mispelled, etc 
+
+4: Exloratory Data analysis
+---> do experiment with data and you do graph plot with data and check what you want 
+---> outlier detection
+---> imbalace dataset
+
+5: Feature Engineering and selection (important)
+---> where you create new feature like you merge some column
+---> you have to select good feature and remove bad feature 
+
+6: Model Training, Evaluation and Selection
+--->you have to train the model with all method and see which method is best
+---> Ensemble learning: you have multiple model and you just add all of them 
+to get a better result
+
+7: Model Deployment
+---> you deploy your model for the users
+
+8: Testing
+---> You first send your product to  trusted customer to get good feedback
+and then you do the optimize
+
+9: Optimize
+--> backup
+--> Data backup
+--> load balancing
+--> Re-train the model 
+

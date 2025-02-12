@@ -1,0 +1,42 @@
+batch learning: you train with alot of data (offline system)
+
+problem: if system learn about something , then it is not going to learn 
+with new trend
+
+you train data in offline and then upload it online
+
+disadvantage: 
+--> lots of data
+--> hardware limit
+--> availability (we dont have huge data) 
+
+
+
+Online Machine Learning: 
+--> you train data dynamically  with the new trend 
+--> you do incremental learning , with small batches 
+ex: Youtube( your feed get modified , after clicking on any vid)
+
+
+when to use online ml: 
+-> when there is rapid change in trend happens ( concept drift)
+-> cost effective  (cheap hai ye)
+-> faster solution (you train in mini batch and got faster and faster ) 
+
+
+(river and vowpal library)
+
+Learning Rate: 
+-> 
+
+Out of core learning: 
+->  you cant train with use the batch ml (big data) 
+->  so you use online learning
+-> so you make small batch and train in offline with help of online learning
+
+
+Disadvantage:
+
+-> if some user send anomaly data and make the training in wrong way 
+
+

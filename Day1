@@ -1,0 +1,32 @@
+supervised ml: you have input and output and train data acc to that
+
+regression:  numerical output 
+classification:  category output
+
+
+numerical: age wt cgpa
+categorial: gender brand
+
+
+
+now moving toward the unsupervised ml
+--> you only have input
+
+-- clustering algo: make group of cluster 
+-- dimensionality reduction : many input ( like thousand of column) column reduction 
+-----> feature extraction (you basically merge two or more column)
+
+
+-- Anomaly detection: it is basically  outlier detection  
+-- Assosication rule learning: it works as feature  association , it check where some product have realtion in it or not  
+
+
+
+semisupervised Learning:  
+--> it is partially supervised and unsupervised ->  
+e.g: Man have to give the label to all the product and after his with help of ml 
+put label on the product 
+
+reinforcement: 
+--> machine learn by doing it & experience it 
+

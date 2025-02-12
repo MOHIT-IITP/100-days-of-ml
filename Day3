@@ -1,0 +1,22 @@
+learning: Memorizing , generalizing
+
+instance Based Learning:  memorizing
+
+ex: KNN
+you just see at the previous data 
+when new data came , the with help of previouse data you suggest
+--> you always have to keep the training data
+-->  storage  heavy
+
+
+
+
+model based learning: it start generalizing 
+it learn by training the data and classifiy certain thing
+
+eg: linear regression , logistic reg , etc
+(you make rule and suggest something with help of that rule)
+--> you can remove the training data
+--> not storage heavy
+
+

@@ -1,0 +1,22 @@
+Feature Engineering
+
+bad algo + good data >>> good algo + bad data
+
+
+
+1: Feature Transformation (1st step)
+1.0: Missing value imputation
+1.1: Handling Categorical Value
+1.2: outlier detection
+1.3: Feature Scaling 
+
+2: Feature construction
+2.0: (You merge some column to create new feature)
+
+3: Feature Selection 
+You have too many features and you start selecting feature
+
+4: Feature Extraction
+you create new feature out of given feature
+like you merge no. of room and no. of washroom with sq.ft area
+

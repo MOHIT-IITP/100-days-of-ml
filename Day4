@@ -1,0 +1,30 @@
+challenges in ML
+
+1: data collection
+
+2: insufficient data / labeled Data
+  --> whey you have more data you can train better
+
+3: non representative data
+  --> sampling noise
+  --> sampling bias
+  e.g: you have to ask each and every one about the cricket match 
+  and get the result from that 
+
+
+4: Poor Quality Data
+--> garbage in garbage out 
+    (if you put bad quality data then you will get bad quality output)
+
+5: irrelevent features
+
+6: overfitting
+
+7: underfitting
+
+8: software integration
+if you want to put ml model in arduino , then that is problem 
+
+9: offline deployment : online learning is costly 
+
+10: cost involved : Bahut paise lagta hai bhai

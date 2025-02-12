@@ -1,0 +1,23 @@
+Univariate Analysis
+we run analysis in only one col at a time
+
+Data Type: Numerical , Categorical data
+
+--> Categorical Data
+**on Categorical data you can use bar graph (to get the numerical value)**
+----------> to get the percentage of the above thing you can use PIE CHART 
+
+--> Numerical Data 
+----------> Histogram (you can use histogram to get the detail about the data 
+and you can also set the bins to know more about it  )
+
+----------> DistPlot (it is same as histogram but with PDF )
+
+----------> BoxPlot (5 row summary , finding outlier)  
+
+
+--------------------Bivariate-------------------- 
+Numerical -- Numerical  (scatter plot, group plot)
+Categorical -- Categorical (Heat map,cluster map ) 
+Numerical -- Categorical (Bar Plot, Distplot, heatmap)
+
