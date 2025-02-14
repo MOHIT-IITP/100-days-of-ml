@@ -1,0 +1,11 @@
+whey you have nomial data
+One Hot encoding (OHE) :
+
+dummy variable trap: you remove first col and you keep (n-1) col
+
+
+column Transformation: 
+ex: Age => simple imputer 
+    city => One hot encoding
+    gender => cne hot encoding
+    review => ordinal encoding
