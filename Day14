@@ -1,1 +1,42 @@
 Pipeline
+
+---> remove missing value --------> Delete first col --------> do scaling  ------> feature scaling ------> Decision Tree
+
+
+
+-> In cross validation -> if cv = 5 then you train and split the data 5  times
+
+
+You export any model with PICKEL 
+
+
+--------------------------------------------------
+
+Function Transformer
+--> mathematicsl transformation ( you will apply mathematical cal on col)
+
+Function Transformer
+1: log transform
+2: reciprocal transform
+-----> all the big value become small and vice versa
+3: power (sq root) transform
+4: square transform
+-----> left skewed ho jayega
+
+
+Power transformer
+1: Box Cox transform
+2: Yeo Johson Transform
+
+
+
+How to find if data is normal? 
+-> try seaborn distplot or pd.skew 
+if skew == 0 , then it is good else it will be skewed
+
+use QQ plot to see whether the given plot is normal or not
+
+why np.log1p?
+-> because when you do np.log then some data become 0
+and when you do np.log1p then if add 1 to each of the data
+
