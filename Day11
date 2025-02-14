@@ -14,12 +14,22 @@ when  to  use Standarization:
 3: principal components analysis(PCA)
 4: Artificial Neural Network 
 5: Gradient Descent
+
+
 -------------------------------------------------------------------
 Normalization:
 --> the goal of the normalization is to change the values of numeric column in the dataset to use a common scale
 without distorting difference in the ranges of values or losing information
 
 -> min max scaling
+----> the outlier create some problem
+
 -> mean normalization
+----> xi - Xmean / Xmax - Xmin
+----> it used widly in sklearn and where you get centered data
+
 -> max absolute
+---->  formula ->  xi / |Xmax|
+---->  where you have sparse data ( where there is too much zeros)
+
 -> robust scaling

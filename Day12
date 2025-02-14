@@ -1,0 +1,27 @@
+Feature Engg
+-->Feature Transformation
+----------> Feature Scaling
+----------> Encoding Categorical
+
+
+Data 
+-> numerical 
+-> categorical
+    -> Nomial (there is not relationship between data) 
+               i.e. : Branch in engg 
+    In Nomial you apply One hot encoding
+    
+   [ex of one hot encoding : male Female , yes no]
+
+    -> ordinal (when there is relationship between data)
+     => In ordinal you apply ORDINAL Encoding
+
+
+Label encoding -> similar as ordinal encoding
+--> Label encoding is for the output not for input
+
+---> when there is ordinal encoding output  then you cannot  apply ordinal
+encoding , there you have to apply lable encoding
+
+
+example of ordinal encoder: OrdinalEncoder(categories=[['Poor','Average','Good'],['School','UG','PG']])
