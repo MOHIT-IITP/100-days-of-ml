@@ -1,0 +1,14 @@
+Variance does not tell about the relation about the x and y. 
+
+Covariance = tell the realtion between x and y .
+
+For PCA you have to know Eigen Value , Eigen Vectors
+
+Eigen Vector: the vector which dont change the direction when Linear transformation is applied
+Eigen Value: when the eigen vector changes its magnitude after the linear transformation  
+
+
+How to solve the PCA.
+1: Mean centering
+2: find covariance matrix
+3: Find the eigen vector and eigen value
