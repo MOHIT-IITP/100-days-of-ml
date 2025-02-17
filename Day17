@@ -1,0 +1,21 @@
+Random imputation
+
+-->
+
+Missing indicator
+you create new col and set true in front of missing data
+
+--------------------------------------------------
+
+Multivariate Technique
+
+        -> KNN imputer
+
+
+
+MICE stands for multivariate imputation by chained equation
+
+1: MCAR:  missing completely at random
+2: MAR:  missing at random
+3: MNAR:  missing not at random
+
