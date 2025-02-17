@@ -1,0 +1,52 @@
+Power Transformer
+
+---> Box Cox and Yoe johnson
+
+
+Box cox
+n > 0
+
+
+Yoe johnson
+n = 0  || n < 0 
+
+
+Encoding Numerical Features
+--> changing numerical to categorical
+
+-> Discretization (Binning)
+
+------> it is the process of transforming continuous variables in to discrete
+variables by creating a set of contiguous  intervals that span the range of the 
+variable's value
+
+---> why Discretization?
+1: to handle outlier
+2: to improve the value spread
+
+
+Binning 3 types
+1: Unsupervised
+   1: equal width (uniform)
+   2: equal frequency (quantile)
+   3: kmeans binning
+
+2: Supervised
+   1: decision tree binning
+
+3: custom Binning
+
+
+Equal widths/ uniform binning
+---> (max - min ) / bin
+
+Equal frequency
+---> first you have to take the bin / interval value
+---> then divide acc to the bin value
+
+
+
+
+
+-> Binarization
+---> you convert continuous data to binary
