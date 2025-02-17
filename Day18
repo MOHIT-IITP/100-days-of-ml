@@ -1,0 +1,57 @@
+
+----------Outlier---------- 
+
+
+Q1: When is outlier dangerous?
+ |
+ |
+  -->when someone says their age is 300
+
+Effect of Outlier on Ml Algorithm?
+    --> if you are working on weights  then this outlier will create the problem
+    -->Linear Reg
+    -->Logistic Reg
+    -->Deep Learning
+
+
+How to treat outlier?
+--> trimming
+
+--> Capping 
+    |
+    ->Capping -> you just cap the value of the outlier  , like max should be 3 and min should 
+      be -3
+
+--> assuming outlier missing
+--> Discritization
+
+
+[for skewed use IQR range to find the outlier]
+
+@ Techniques for outlier Detection
+    Zscore
+    IQR
+    Percentile
+    Winsorization
+
+
+
+----------Outlier Detection----------
+---> Outlier removal using Z score
+
+   [ mu - 3sd ]
+   [ mu + 3sd ]
+
+
+IQR Method use case: 
+ -> when your data is skewed left or right then you use the IQR method
+
+    [you can plot the box plot to see the IQR]
+
+
+Outlier Detection using Percentile Method
+    -> just find from there you have to consider like  valid : 3 %ile < x < 99 %ile 
+    -> then after this anything extra will be considered as outlier and you just cap them 
+
+
+   [when you use capping using percentile method then it is known as Winsorization]

@@ -1,0 +1,27 @@
+It is a feature extraction technique
+-> Then feature reduce -> ml model get faster
+
+[PCA brings higher dimension data to best lower dimension while keeping 
+the essence of the data]
+
+-> Benefits of PCA
+1: Faster execution of algo
+2: Visualization  ( PCA give best view in lower dimension)
+
+In PCA that axis which have more variance got selected
+
+[In Question where you do feature selection  but the variance is same 
+then the feature extraction come in hand]
+
+
+[ ex: In PCA you create the size inspite of no. of room and no. of washroom ]
+
+
+
+Why Variance is important? 
+-> you just get knowledge about the spread in the data with the help of variance
+
+
+-> variance is proportional to spread but not the spread
+
+

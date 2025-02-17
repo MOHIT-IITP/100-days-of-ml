@@ -1,0 +1,21 @@
+Feature Construction
+ -> you create new feature out of existing one to increase the accuracy
+
+Curse of dimensionality
+ -> you have to get the optimal number of dimension to get the better accuracy 
+
+ disadvantage->
+ -> Performance decrese
+ -> too much computation
+
+ (dimensionality reduction)
+ -> Feature selection
+    -> forward selection 
+    -> backward elimination 
+
+ -> Feature extraction
+    -> PCA
+    -> LDA 
+    -> tsne
+
+[ Higher dimension data is dangrous for you ml model ]
