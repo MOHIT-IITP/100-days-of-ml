@@ -1,0 +1,36 @@
+Handling Missing Value
+
+-> Remove them
+----> MCAR -> missing comepletely at random
+when to use CCA?
+1.when there is MCAR
+2. 5% se kam data missing ho 
+
+[before and after cca the ratio should be same]
+
+-> univariate
+    -> num
+    -> cat
+
+-> multivariate
+    -> KNN, etc
+
+
+--------------------------------------------------
+Mean and Median 
+when you replace the data with mean
+1: distribution shape chages
+2: outlier aa jata hai
+3: covariance can change
+
+When to use ?
+1: MCAR
+2: 5 % <
+
+
+
+when data is not missing at random then we use arbitrary value imputation.
+
+--------------------------------------------------
+Handling Categorical missing data.
+    Most frequent value imputation
