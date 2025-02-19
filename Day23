@@ -1,0 +1,54 @@
+Regression metrics
+
+1.MAE (mean absolute error)
+2.MSE
+3.RMSE
+4.R2 Score
+5.adjusted R2 Score
+
+[ MAE ( mean absolute error) ]
+    Advantage: 
+    1. same unit me result deta hai like ( 1.5 lpa ka error hai )
+    2. Robust outlier
+
+    disadvantage: 
+    1. isme module aa jata hai  
+        and after some process we have to diff the equation and mod differe nhi ho pata hai 
+
+
+[ MSE (Mean squared error) ]
+
+    Advantage: 
+        1.loss function ke tarah use kar sakte ho  
+
+    Disadvantage: 
+        1. if y = lpa , then mse = (lpa)^2
+            square aata hai result me 
+
+[ RMSE (root over of MSE) ]
+    all property is like MSE
+        
+    Advantage => 1. the output is of same unit
+    Disadvantage =>  2. Robust outliers
+
+    many people prefer RMSE over MSE
+
+
+[ R2 Score ]
+    if someone ask about you package , so you will find mean of the previous
+    placement and say the mean will be the package
+
+    OR
+
+    you will find the linear regression line and then tell the answer
+
+
+    R2 = 1-SSr/SSm
+    {
+        SSr = sum of square error in regression line
+        SSm = sum of square error in mean line
+    }
+
+
+    Q. When the R2 Score is Zero?
+    (if the SSr line and SSm line does the same mistake then the R2 Score = 0)
