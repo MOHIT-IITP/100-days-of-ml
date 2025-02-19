@@ -52,3 +52,16 @@ Regression metrics
 
     Q. When the R2 Score is Zero?
     (if the SSr line and SSm line does the same mistake then the R2 Score = 0)
+
+    QWhy R2 score is bad? 
+    if you add input col , then R2 score will increase
+    if you add irrelevent col, then R2 score will increase or stay at that point
+    to solve the above issue we have Adjusted R2 Score
+
+
+
+[ Adjusted R2 Score ] 
+    whey you add irrelevent col , then the R2 Score remain same or decrease 
+    ** and we know that main motive is to decrease the number as much we can ** 
+
+    and when you add some more relevent col then the adjusted R2 score will increase
