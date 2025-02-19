@@ -1,0 +1,38 @@
+Linear Regression
+-> easy to understand
+-> foundation algorithm
+
+
+-> LR = supervised machine learning algorithm
+
+=> Types of LR
+
+-> simple LR 
+-> multiple LR
+-> polynomial LR
+
+[Regularization] -> you make some LR algo with this 
+
+
+[Simple Linear Regression]
+-> 1 input || 1 output
+  ( linear regression is trying to find the best fit line in the graph to predict the result )
+
+{
+    y = mx + b
+    package = m * cgpa + b
+
+    -> the m (slope) shows the realtion between "package" and "cgpa"
+    [if m increase then small change in x reflect high change in y ]
+}
+
+make the best fit line  [ the best fit line make minimum galti]
+
+
+
+How to find the m and b:
+--> small dimension => OLS method
+    high dimension => gradient Descent method
+
+
+[ OLS ]
