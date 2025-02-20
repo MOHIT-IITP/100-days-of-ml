@@ -3,9 +3,9 @@
 
 
 {
-    2D -> line  is used 
-    3D -> plane is used 
-    4D - nD -> Hyperplane is used
+    2D -> "line  is used" 
+    3D -> "plane is used" 
+    4D - nD -> "Hyperplane is used"
 }
 
 
