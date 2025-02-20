@@ -1,0 +1,33 @@
+[ "MULTIPLE LINEAR REGRESSION" ]
+-> In data you have more than one input column
+
+
+{
+    2D -> line  is used 
+    3D -> plane is used 
+    4D - nD -> Hyperplane is used
+}
+
+
+[
+    y = mx1 + nx2 + b
+]
+
+
+{
+    y = B0 + B1x1 + B2X2 + .....+ Bnxn     // "now you can apply this for any n dimension"
+    
+    [ B0 => offset ]
+}
+
+"EXAMPLE" : [ lpa = B0 + B1 cgpa + B3 iq ]
+
+
+Why gradient descent?
+
+-> "OLS" (ordinary least square) => you use linear regression class
+-> "gradient descent" => you use SGD regression class
+
+
+
+
