@@ -1,0 +1,31 @@
+- Machine Learning Algorithm
+  - Supervised Learning
+    - classification
+      - Logistic Regression
+      - Decision Tree
+      - Random Forest
+      - SVM
+      - KNN
+      - Naive Bayes
+      - Neural Networks
+    - Regression
+      - Linear Regression
+      - Ridge Regression
+      - Lasso Regression
+      - Polynomial Regression
+      - SVR
+      - Decision Tree
+  - Unsupervised Learning
+    - Clustering
+      - k-means
+      - Hierarchical clustering
+      - DBSCAN
+      - Gaussian Mixture Models
+    - Dimensionality Reduction
+      - PCA
+      - T-Sne
+      - Autoencoders
+  - Semi Supervised Learning
+    - Combination of supervised and unsupervised learning
+    - ex: Label propagation
+  - ## Reinforcement Learning
