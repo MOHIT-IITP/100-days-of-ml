@@ -7,5 +7,5 @@ dummy variable trap: you remove first col and you keep (n-1) col
 column Transformation: 
 ex: Age => simple imputer 
     city => One hot encoding
-    gender => cne hot encoding
+    gender => one hot encoding
     review => ordinal encoding
